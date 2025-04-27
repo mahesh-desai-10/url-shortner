@@ -1,0 +1,23 @@
+# Ignore node_modules in both frontend and backend
+node_modules/
+
+# Ignore build folder from React app
+frontend/build/
+
+# Ignore testing coverage reports
+frontend/coverage/
+
+# Ignore environment files (if you have any)
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Misc system files
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
